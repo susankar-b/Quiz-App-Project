@@ -1,112 +1,115 @@
-let questions =[
+// worldHistoryQuiz.js
+
+const questions = [
   {
-      numb: 1,
-      question: "What is my D.O.B ?",
-      answer: "23rd Nov 2002",
-      options:[
-          "17th Nov 2002",
-          "23rd Nov 2003",
-          "23rd Nov 2002",
-          "17th Nov 2001"
-      ]
+    numb: 1,
+    question: "Which of the following events marked the beginning of World War II?",
+    answer: "Germany's invasion of Poland",
+    options: [
+      "The assassination of Archduke Franz Ferdinand",
+      "Germany's invasion of Poland",
+      "The bombing of Pearl Harbor",
+      "The signing of the Treaty of Versailles"
+    ]
   },
   {
-      numb: 2,
-      question: "Where is my Home town ?",
-      answer: "Sabroom",
-      options:[
-          "Santir Bazar",
-          "Belonia",
-          "Sabroom",
-          "Amarpur"
-      ]
+    numb: 2,
+    question: "Who was the first Emperor of Rome?",
+    answer: "Augustus",
+    options: [
+      "Julius Caesar",
+      "Augustus",
+      "Nero",
+      "Caligula"
+    ]
   },
   {
-      numb: 3,
-      question: "What is my Age ?",
-      answer: "21",
-      options:[
-          "21",
-          "19",
-          "20",
-          "22"
-      ]
+    numb: 3,
+    question: "What was the name of the ship that brought the Pilgrims to America in 1620?",
+    answer: "The Mayflower",
+    options: [
+      "The Mayflower",
+      "The Santa Maria",
+      "The Beagle",
+      "The Victoria"
+    ]
   },
   {
-      numb: 4,
-      question: "What is Ssnkr's anytime film to watch ?",
-      answer: "Yeh Jawani Hai Dewaani",
-      options:[
-          "Adipurush",
-          "KGF",
-          "DDLJ",
-          "Yeh Jawani Hai Dewaani"
-      ]
+    numb: 4,
+    question: "Which ancient civilization built the pyramids?",
+    answer: "The Egyptians",
+    options: [
+      "The Greeks",
+      "The Romans",
+      "The Egyptians",
+      "The Mesopotamians"
+    ]
   },
   {
-      numb: 5,
-      question: "Where Ssnkr recently went for trekking ?",
-      answer: "Uttrakhand",
-      options:[
-          "Nepal",
-          "Uttrakhand",
-          "Delhi",
-          "Arunachal Pradesh"
-      ]
+    numb: 5,
+    question: "Who discovered penicillin in 1928?",
+    answer: "Alexander Fleming",
+    options: [
+      "Marie Curie",
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Isaac Newton"
+    ]
   },
   {
-      numb: 6,
-      question: "What is Ssnkr's height ?",
-      answer: "Ssnkr also don't know!",
-      options:[
-          "172 cm",
-          "175 cm",
-          "169 cm",
-          "Ssnkr also don't know!"
-      ]
+    numb: 6,
+    question: "The Great Wall of China was primarily built to protect against which group?",
+    answer: "The Mongols",
+    options: [
+      "The Mongols",
+      "The Huns",
+      "The Persians",
+      "The Romans"
+    ]
   },
   {
-      numb: 7,
-      question: "If not Engg. what would Ssnkr be ?",
-      answer: "Owner of Counter",
-      options:[
-          "Army",
-          "Doctor",
-          "Owner of Counter",
-          "Cricketer"
-      ]
+    numb: 7,
+    question: "In what year did the Berlin Wall fall, signaling the end of the Cold War?",
+    answer: "1989",
+    options: [
+      "1989",
+      "1979",
+      "1991",
+      "1961"
+    ]
   },
   {
-      numb: 8,
-      question: "What is Ssnkr's nickname ?",
-      answer: "All of the above",
-      options:[
-          "Penthu",
-          "Susu",
-          "Emon",
-          "All of the above"
-      ]
+    numb: 8,
+    question: "Who was the first man to step on the moon?",
+    answer: "Neil Armstrong",
+    options: [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ]
   },
   {
-      numb: 9,
-      question: "What Snnkr do in free time ?",
-      answer: "Watch movies",
-      options:[
-          "Watch movies",
-          "Sleep",
-          "Video Games",
-          "Preapre for GATE"
-      ]
+    numb: 9,
+    question: "Which empire was known for its road network and military organization, spanning from modern-day Britain to Egypt?",
+    answer: "The Roman Empire",
+    options: [
+      "The Persian Empire",
+      "The Roman Empire",
+      "The Byzantine Empire",
+      "The Ottoman Empire"
+    ]
   },
   {
-      numb: 10,
-      question: "Favourite cricketer ?",
-      answer: "Virat Kohli",
-      options:[
-          "Gautam Gambhir",
-          "Virat Kohli",
-          "MS Dhoni",
-          "BKL Rahul"
-      ]
-  },
-]
+    numb: 10,
+    question: "Which document, signed in 1215, limited the powers of the English monarch?",
+    answer: "The Magna Carta",
+    options: [
+      "The Magna Carta",
+      "The English Bill of Rights",
+      "The Treaty of Westphalia",
+      "The Declaration of Independence"
+    ]
+  }
+];
+
